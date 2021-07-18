@@ -1,0 +1,6 @@
+function lastLetters(str){
+	let lastFirst = str.split("").reverse().join(' ').slice(0,3);
+	return lastFirst;
+	}
+
+alert(lastLetters('Apple'));
